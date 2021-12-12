@@ -9,22 +9,19 @@
     <link href="formulario.css">
 </head>
 <body>
-    <form name="meu_form">
+    <form id="formsenha">
+        <div>
+            <label for="nome">Informe o seu nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+            <label for="senha">Informe a sua senha:</label>
+            <input type="password" id="senha" name="senha">
+        </div>
+        <div>
+            <input type="submit" value="Exibir os dados digitados">
+        </div>
+    </form>
 
-        <h1>Entre em contato</h1>
-      
-        <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
-        <label for="nome">Nome</label> <br>
-      
-        <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-        <label for="fone">Fone</label> <br>
-      
-        <input type="email" id="emailid" placeholder="Coloque seu email" name="email" />
-        <label for="email">Email</label><br>
-      
-        <textarea placeholder="Deixe sua opnião"></textarea>
-      
-        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-      </form>
 </body>
 </html>
